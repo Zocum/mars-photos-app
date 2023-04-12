@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Square+Peg&display=swap');
+
+.nav {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+.hide {
+    margin-top: -3.2rem;
+    display: none;
+    
+}
+.hide1 {
+    margin-top: -3.2rem;
+    display: none;
+}
+.hide2 {
+    margin-top: -3.2rem;
+    display: none;
+}
+.hide3 {
+    margin-top: -3.2rem;
+    display: none;
+}
+.perr {
+    border-radius: 50%;
+}
+.perr:hover + .hide {
+    display: block;
+    color: aquamarine;
+    transform: scale(1);
+}
+.perr:hover{
+    transform: scale(1.5);
+}
+
+.cuu {
+    border-radius: 50%;
+}
+.cuu:hover + .hide1 {
+    display: block;
+    color: aquamarine;
+    transform: scale(1.1);
+}
+.cuu:hover {
+    transform: scale(1.5);
+} 
+.opp {
+    border-radius: 50%;
+}
+.opp:hover + .hide2 {
+    display: block;
+    color: aquamarine;
+    transform: scale(1.1);
+}
+.opp:hover {
+    transform: scale(1.5);
+}
+.spr {
+    border-radius: 50%;
+} 
+.spr:hover + .hide3 {
+    display: block;
+    color:aquamarine;
+    transform: scale(1.1);
+}
+.spr:hover {
+    transform: scale(1.5);
+}
